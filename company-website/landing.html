@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid Repsonsive Site -CC Practice</title>
+    <style>
+      body {
+        background-color: #2e2e2c;
+        margin: 0;
+      }
+      .section-1 {
+        background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+        background-color: black;
+        background-position: center;
+        color: white;
+        margin: 0;
+        min-height:300px;
+      }
+      h1 {
+        margin: 0;
+      }
+      .section-1-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align:center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding:100px;
+      }
+      button {
+        margin-bottom: 60px;
+        background: black;
+        color: white;
+        border: solid 1px;
+        border-color: white;
+        padding: 8px 16px;
+        transition: all 200ms ease;
+        cursor: pointer;
+      }
+      button:hover {color: black;
+        background: white;}
+
+      .section-2 {
+        background-color: white;
+        margin-top: 0;
+        text-align: center;
+        padding: 16px;
+      }
+      .section-text {
+        display: flex;
+        flex-direction: row;
+        align-items: center baseline;
+        justify-content: center;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .section-3 {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+        max-height: 500px;
+        margin: 0 auto;
+        padding: 60px;
+        color: black;
+      }
+      .section-3a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 270px;
+        margin: 16px;
+        background-color: white;
+      }
+      .image-wrap {
+        height: 180px;
+        width: 270px;
+      }
+      .images {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      .info-text {
+        padding: 0 8px;
+        text-align: center;
+      }
+      .section-4 {
+        background-color: white;
+        color: black;
+        padding: 16px;
+      }
+      .section-4-info {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .section-5 {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+        margin-bottom: 0;
+      }
+      .section5-common {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        text-align: center;
+      }
+      .section5a {
+        background-color: #0084ff;
+        margin-bottom: 0;
+      }
+      .email {
+        text-decoration: none;
+        color: white;
+        padding-bottom: 16px;
+      }
+      .section-6 {
+        background-color:black;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+        margin-bottom: 0;
+      }
+      .section-6a {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        text-align: center;
+      }
+      .media-link {text-decoration: none; color: #0084ff}
+    </style>
+  </head>
+
+  <body>
+    <div class="section-1">
+      <div class="section-1-text">
+        <h1>Welcome to Acme Web Solutions</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum
+          error earum soluta voluptatum nisi laboriosam eos saepe asperiores
+          dolorum"
+        </p>
+        <button>Read More</button>
+      </div>
+    </div>
+    <div class="section-2">
+      <h2>Web & Application Development</h2>
+      <div class="section-text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint
+          eligendi possimus? Unde officiis magnam laborum ipsa distinctio odio,
+          vero dolores
+        </p>
+        <p>
+          dicta aliquam aperiam repellendus. Perferendis officiis deserunt velit
+          voluptas nobis sequi animi totam, accusantium, ex eius quia, natus
+          quo?
+        </p>
+      </div>
+    </div>
+    <div class="section-3">
+      <div class="section-3a">
+        <div class="image-wrap">
+          <img
+            class="images"
+            src="https://static.pexels.com/photos/574077/pexels-photo-574077.jpeg"
+          />
+        </div>
+        <h4>Web Development</h4>
+        <p class="info-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa
+          neque quo eum et quasi velit voluptatum cum maiores exercitationem.
+        </p>
+      </div>
+
+      <div class="section-3a">
+        <div class="image-wrap">
+          <img
+            class="images"
+            src="https://static.pexels.com/photos/261628/pexels-photo-261628.jpeg"
+          />
+        </div>
+        <h4>Mobile Applications</h4>
+        <p class="info-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa
+          neque quo eum et quasi velit voluptatum cum maiores exercitationem.
+        </p>
+      </div>
+
+      <div class="section-3a">
+        <div class="image-wrap">
+          <img
+            class="images"
+            src="https://static.pexels.com/photos/265087/pexels-photo-265087.jpeg"
+          />
+        </div>
+        <h4>Tech Marketing</h4>
+        <p class="info-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa
+          neque quo eum et quasi velit voluptatum cum maiores exercitationem.
+        </p>
+      </div>
+    </div>
+    <div class="section-4">
+      <div class="section-4-info">
+        <h2>We handle all of your digital needs</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam
+          rerum vel earum error fugiat cupiditate, dolore eius! Minus,
+          explicabo.
+        </p>
+      </div>
+    </div>
+    <div class="section-5">
+      <div class="section5-common section5a">
+        <h3>Contact us</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum,
+          suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde fuga.
+        </p>
+        <a class="email" href="mailto:contact@acmewebsolutions.test"
+          >contact@acmewebsolutions.test</a
+        >
+      </div>
+      <div class="section5-common">
+        <h3>About our Company</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          earum porro deserunt, deleniti, quae facere repudiandae, officiis est
+          exercitationem nobis iusto doloremque! Soluta excepturi in aut
+          suscipit amet temporibus quo?
+        </p>
+      </div>
+    </div>
+    <div class="section-6">
+      <div class="section-6a">
+        <p>Acme Web Solutions</p>
+      </div>
+      <div class="section-6a">
+        <p>Project by <a class="media-link" href="https://traversymedia.com/" target="_blank"> Traversy Media</p>
+      </div>
+    </div>
+  </body>
+</html>
